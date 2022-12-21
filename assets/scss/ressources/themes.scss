@@ -1,0 +1,15 @@
+html {
+    font-family: $main_font;
+    color: $color_font;
+    background-color: $bg_page;
+}
+
+@import './themes/text.scss';
+@import './themes/border.scss';
+@import './themes/background.scss';
+@import './themes/opacity.scss';
+@import './themes/padding.scss';
+@import './themes/margin.scss';
+@import './themes/sizes.scss';
+@import './themes/breakpoint.scss';
+@import './themes/box-shadow.scss';

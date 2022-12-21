@@ -1,0 +1,94 @@
+#nav1 {
+    z-index: 1000;
+    overflow: hidden;
+    position: relative;
+}
+
+
+#nav2 {
+    z-index: 100;
+    overflow: hidden;
+    position: relative;
+
+    @media screen and (min-width: 800px) {
+        
+        display: none;
+        
+    }
+
+
+
+
+}
+
+@keyframes nav-open {
+    from {
+        height: 300px;
+        top: -300px;
+    }
+    to {
+        height: 300px;
+        top: 0px;
+    }
+}
+
+@keyframes nav-close {
+    from {
+        height: 300px;
+        top: 0px;
+    }
+    to {
+        height: 300px;
+        top: -300px;
+    }
+}
+
+.default-close {
+    height: 300px;
+    top: -300px;
+}
+
+
+.nav-open {
+    animation-name: nav-open;
+    animation-fill-mode: forwards;
+    animation-duration: 0.75s;
+}
+
+.nav-close {
+    animation-name: nav-close;
+    animation-fill-mode: forwards;
+    animation-duration: 0.75s;
+}
+
+
+.of {
+    &-hidden {
+        overflow: hidden;
+    }
+}
+
+.pos {
+    &-abs {
+        position:absolute;
+    }
+}
+
+header {
+    width: 100vw;
+}
+
+main {
+    position: relative;
+    top: 70px;
+    min-height: 400px;
+}
+
+input {
+    padding: 5px 10px 5px 10px;
+    margin: 5px 0px 5px 0px;
+}
+
+
+
+

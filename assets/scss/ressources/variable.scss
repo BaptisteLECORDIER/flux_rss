@@ -1,0 +1,14 @@
+@import "./variables/colors.scss";
+@import "./variables/sizes.scss";
+@import "./variables/text_colors.scss";
+@import "./variables/percents.scss";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+$color_font : map-get($colors, 'dark');
+$bg_page    : rgb(245, 245, 245);
+
+$main_font  : 'Roboto', sans-serif;
+
+
+
